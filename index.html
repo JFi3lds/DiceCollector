@@ -1,0 +1,454 @@
+<OCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <meta name="keywords"
+   content="INFORMATION ABOUT DICE">
+
+  <style type="text/css">
+  </style>
+<body style="color: rgb(255, 255, 255); background-color: #0b6623;"
+      alink="#3333ff" link="#ff0000" vlink="#3333ff">
+  <bgsound id="audioPlayer1" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer2" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer3" src="" loop="1"></bgsound>
+
+  <bgsound id="audioPlayer4" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer5" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer6" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer7" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer8" src="" loop="1"></bgsound>
+  <bgsound id="audioPlayer9" src="" loop="1"></bgsound>
+
+  <link rel="icon" href="TWO.ico">
+
+  <TITLE>DiceCollector.com - INFORMATION ABOUT DICE</title>
+
+<!-- BEGIN BUTTON CODE -->
+  <style>
+	td.class1 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/GENERAL_INFO_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class2 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/GENERAL_INFO_ON.PNG);
+		background-repeat : no-repeat;
+	}
+
+	td.class3 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/WRITINGS_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class4 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/WRITINGS_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+	td.class5 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/COLLECTION_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class6 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/COLLECTION_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+	td.class7 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/ANIMATIONS_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class8 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/ANIMATIONS_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+	td.class9 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/VIDEOS_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class10 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/VIDEOS_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+	td.class11 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/PATENTS_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class12 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/PATENTS_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+    td.class99 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/OTHER_OFF.PNG);
+		background-repeat : no-repeat;
+	}
+	td.class1100 {
+		height			: 57px;
+		width				: 221px;
+		background-image		: url(http://dicecollector.com/images/OTHER_ON.PNG);
+		background-repeat : no-repeat;
+      }
+
+
+
+
+  </style>
+
+<script language="Javascript">
+    
+function playAudio(url,loopCount)
+{
+    if(loopCount != null)
+        document.all.audioPlayer.loop = loopCount;
+    if(url.indexOf(".wav") == -1) {
+        url += ".wav";
+    }
+ 
+        document.all.audioPlayer.src = url;
+}    
+
+function GENERAL_in(obj)
+{
+	obj.className = "class2";
+      audioPlayer1.src="GENERAL.wav";
+}
+
+function GENERAL_out(obj)
+{
+	obj.className = "class1";
+}
+
+function WRITINGS_in(obj)
+{
+	obj.className = "class4";
+      audioPlayer2.src="WRITINGS.wav";
+}
+
+function WRITINGS_out(obj)
+{
+	obj.className = "class3";
+}
+
+function COLLECTION_in(obj)
+{
+	obj.className = "class6";
+      audioPlayer2.src="COLLECTION.wav";
+}
+
+function COLLECTION_out(obj)
+{
+	obj.className = "class5";
+}
+
+
+function ANIMATIONS_in(obj)
+{
+	obj.className = "class8";
+      audioPlayer2.src="ANIMATIONS.wav";
+}
+
+function ANIMATIONS_out(obj)
+{
+	obj.className = "class7";
+}
+
+function VIDEOS_in(obj)
+{
+	obj.className = "class10";
+      audioPlayer2.src="VIDEOS.wav";
+}
+
+function VIDEOS_out(obj)
+{
+	obj.className = "class9";
+}
+
+function PATENTS_in(obj)
+{
+	obj.className = "class12";
+      audioPlayer2.src="PATENTS.wav";
+}
+
+function PATENTS_out(obj)
+{
+	obj.className = "class11";
+}
+
+function OTHER_in(obj)
+{
+	obj.className = "class100";
+      audioPlayer2.src="PATENTS.wav";
+}
+
+function OTHER_out(obj)
+{
+	obj.className = "class99";
+}
+
+
+</script>
+
+</head>
+
+<!-- BEGIN BODY -->
+
+<div style="text-align: center; font-family: helvetica,arial,sans-serif;">
+<div style="text-align: center;"></div>
+
+<!-- BEGIN TABLE  -->
+
+<table style="width: 800px; margin-left: auto; margin-right: auto; text-align: left;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+  <tbody>
+
+<!-- HEADER ROW -->
+
+    <tr>
+      <td colspan="3" style="width: 800px; text-align: center; vertical-align: middle;">
+         <big><big><big><big>INFORMATION ABOUT DICE</big></big></big></big>
+         <br><br><br> 
+      </td>
+    </tr>
+
+</table>
+
+<!-- END HEADER TABLE -->
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+    <tr>
+
+      <td title="GENERAL INFORMATION ABOUT DICE"
+          class="class1" 
+          baseclass="class1" 
+          activeclass="class2"
+          onmouseover="GENERAL_in(this)" 
+          onmouseout="GENERAL_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_GENERAL_INFORMATION.html'"
+      </td>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+</table>
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+
+    <tr>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+      <td title="WRITINGS ABOUT DICE"
+          class="class3" 
+          baseclass="class3" 
+          activeclass="class4"
+          onmouseover="WRITINGS_in(this)" 
+          onmouseout="WRITINGS_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_WRITINGS.html'"
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+</table>
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+  <tbody>
+
+    <tr>
+
+      <td title="INFORMATION ABOUT THE COLLECTION"
+          class="class5" 
+          baseclass="class5" 
+          activeclass="class6"
+          onmouseover="COLLECTION_in(this)" 
+          onmouseout="COLLECTION_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_ABOUT_THE_COLLECTION.html'"
+      </td>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+    </tr>
+</table>
+
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+    <tr>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+      <td title="DICE ANIMATIONS"
+          class="class7" 
+          baseclass="class7" 
+          activeclass="class8"
+          onmouseover="ANIMATIONS_in(this)" 
+          onmouseout="ANIMATIONS_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_ANIMATIONS.html'"
+      </td>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+</table>
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+  <tbody>
+
+    <tr>
+
+      <td title="DICE VIDEOS"
+          class="class9" 
+          baseclass="class9" 
+          activeclass="class10"
+          onmouseover="VIDEOS_in(this)" 
+          onmouseout="VIDEOS_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_VIDEOS.html'"
+      </td>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+    </tr>
+</table>
+
+
+<table style="width: 442px; height: 57px; margin-left: auto; margin-right: auto; text-align: center;"
+ border="0" 
+ cellpadding="0" 
+ cellspacing="0">
+
+    <tr>
+
+      <td style="vertical-align: top;">
+         <img alt="" src="http://dicecollector.com/images/BASE_OFFSET.PNG" style="width: 111px; height: 57px;">
+      </td>
+
+      <td title="DICE PATENTS"
+          class="class11" 
+          baseclass="class11" 
+          activeclass="class12"
+          onmouseover="PATENTS_in(this)" 
+          onmouseout="PATENTS_out(this)"
+          onclick="location.href='http://www.dicecollector.com/DICEINFO_PATENTS.html'"
+      </td>
+
+    <tr>
+      <td>
+        <br>
+      </td>
+    </tr>
+
+</table>
+
+<br> 
+
+<div style="text-align: center; font-family: helvetica,arial,sans-serif;">
+   
+   If you have any dice info/suggestions you think I should have?
+   
+</div>
+
+<p class="MsoNormal" Style="margin-bottom: 12pt; text-align: center; font-family: helvetica,arial,sans-serif;" align="center">
+   <big><big>
+   Email 
+   <a href="http://www.dicecollector.com/index_how_2_contact.html">
+     <img src="http://dicecollector.com/images/EMAIL.GIF" title="" alt="EMAIL ME" style="border: 0px solid ; width: 122px; height: 111px;"></a> Me
+   <br>
+   </big></big>
+</p>
+
+<div style="font-family: helvetica,arial,sans-serif;" align="center">
+   <a href="http://www.dicecollector.com/">
+      <img src="http://dicecollector.com/images/HOME0.GIF" title="" alt="HOME" style="border: 0px solid ; width: 194px; height: 134px;">
+   </a>
+</div>
+
+</div>
+</body>
+</html>
